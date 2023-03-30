@@ -1,0 +1,156 @@
+ /*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/templates/simple-sidebar)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ */
+
+body {
+    color: #34495e;
+    font-family: "Open Sans", sans-serif;
+    padding: 0px !important;
+    margin: 0px !important;
+    direction: "ltr";
+    font-size: 14px;
+} 
+
+.dataTables_scrollBody
+{
+ overflow-x:hidden !important;
+ overflow-y:auto !important;
+}
+.modal-backdrop {
+    /* bug fix - no overlay */    
+    display: none;    
+}
+
+.meta-row {
+    clear: both;
+    margin: 0px;
+    overflow: hidden;
+} 
+.meta-default {
+    background: #f9f9f9;
+}
+.meta {
+    padding: 10px;
+	margin-top: 6px;
+	margin-bottom:0;
+    width: 100%;
+}
+
+.meta-icon {
+    padding: 10px;
+    float: left;
+	font-size: 40px;
+}
+.meta-data {
+    padding: 10px;
+    float: left;
+}
+
+.left{
+	float: left;
+}
+
+.bd{
+	border: solid #f7f7f9;
+	position: relative;
+	padding: 1.5rem;
+	margin-right: 0;
+	margin-left: 0;
+	margin-top: 20px;
+	border-width: .2rem;
+  }
+  
+.title {
+	margin-top: 2rem;
+  }
+  
+.margin{
+	margin: 15px;
+  }
+  
+tr.selected {
+	 background-color: #009090 !important;
+	 color: white;
+  }
+  
+tr.linked {
+	 background-color: #E7F1F5 !important;
+}
+  
+  
+  
+  
+.modal.draggable-modal .modal-header {
+    cursor: move;
+}
+
+
+td.details-control {
+    background: url('../images/details_open.png') no-repeat center center;
+    cursor: pointer;
+}
+tr.shown td.details-control {
+    background: url('../images/details_close.png') no-repeat center center;
+}
+
+.dropdown-item {
+	font-size: 14px;
+}
+
+ 
+ #wrapper {
+    overflow-x: hidden;
+ }
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+  
+  input[type='number'] {
+    -moz-appearance:textfield;
+  }
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  }
+  
+}
